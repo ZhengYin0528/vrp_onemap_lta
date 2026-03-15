@@ -5,4 +5,5 @@ __pycache__/
 .cache/
 venv/
 .env
-outputs/.cache/
+outputs/.cache/config.json
+config.json
