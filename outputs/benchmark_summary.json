@@ -1,0 +1,77 @@
+{
+  "main_case": {
+    "greedy": {
+      "objective": 4488.220963809523,
+      "total_distance_km": 2993.297,
+      "total_time_min": 3964.657546666667
+    },
+    "ga_only": {
+      "objective": 3346.464803809524,
+      "total_distance_km": 1499.0729999999999,
+      "total_time_min": 2942.439306666667
+    },
+    "ga_bo": {
+      "objective": 3273.8950438095235,
+      "total_distance_km": 1544.516,
+      "total_time_min": 2866.234106666667
+    }
+  },
+  "small_case_validation": {
+    "exact": {
+      "status": "ok",
+      "method": "exact_bruteforce",
+      "objective": 1229.2457066666664,
+      "routes": [
+        [
+          0,
+          5,
+          6,
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "route_costs": [
+        1229.2457066666664
+      ],
+      "route_distance_km": [
+        2199.1390000000006
+      ],
+      "route_time_min": [
+        842.8313866666666
+      ],
+      "route_loads": [
+        2225.25
+      ],
+      "perm": [
+        5,
+        6,
+        4,
+        3,
+        2
+      ]
+    },
+    "greedy": {
+      "objective": 1327.8570933333333,
+      "total_distance_km": 2646.9990000000003,
+      "total_time_min": 905.6139733333334
+    },
+    "ga_only": {
+      "objective": 1229.2457066666664,
+      "total_distance_km": 2199.1390000000006,
+      "total_time_min": 842.8313866666666
+    },
+    "ga_bo": {
+      "objective": 1229.2457066666664,
+      "total_distance_km": 2199.1390000000006,
+      "total_time_min": 842.8313866666666
+    }
+  },
+  "improvement_percent": {
+    "ga_only_vs_greedy": 25.438947173200145,
+    "ga_bo_vs_greedy": 27.055840828507268,
+    "ga_bo_vs_ga_only": 2.16854992520432
+  }
+}

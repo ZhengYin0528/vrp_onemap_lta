@@ -1,0 +1,137 @@
+{
+  "study_area": {
+    "name": "Clementi HDB proxy study area",
+    "description": "Real residential proxy nodes in Clementi replacing random coordinate generation."
+  },
+  "depot": {
+    "id": "DEPOT",
+    "address": "3151 Commonwealth Avenue West, Singapore",
+    "lat": 1.3153,
+    "lon": 103.764
+  },
+  "incinerator": {
+    "id": "INCINERATOR",
+    "address": "Tuas South Avenue 3, Singapore",
+    "lat": 1.2998,
+    "lon": 103.629
+  },
+  "fleet": {
+    "num_trucks": 3,
+    "truck_capacity_liters": 5000,
+    "num_bins": 25,
+    "bin_capacity_min_liters": 660,
+    "bin_capacity_max_liters": 1100,
+    "fill_fraction_min": 0.45,
+    "fill_fraction_max": 0.9
+  },
+  "bins": [
+    {
+      "id": "BIN_008",
+      "address": "342 Clementi Avenue 5, Singapore",
+      "lat": 1.3181,
+      "lon": 103.7694,
+      "bin_capacity_liters": 673.98,
+      "fill_fraction": 0.492,
+      "demand_liters": 331.71
+    },
+    {
+      "id": "BIN_006",
+      "address": "301 Clementi Avenue 4, Singapore",
+      "lat": 1.3212,
+      "lon": 103.7719,
+      "bin_capacity_liters": 762.37,
+      "fill_fraction": 0.721,
+      "demand_liters": 549.6
+    },
+    {
+      "id": "BIN_003",
+      "address": "435 Clementi Avenue 3, Singapore",
+      "lat": 1.3148,
+      "lon": 103.7659,
+      "bin_capacity_liters": 906.95,
+      "fill_fraction": 0.772,
+      "demand_liters": 700.35
+    },
+    {
+      "id": "BIN_009",
+      "address": "347 Clementi Avenue 5, Singapore",
+      "lat": 1.3175,
+      "lon": 103.7704,
+      "bin_capacity_liters": 968.58,
+      "fill_fraction": 0.639,
+      "demand_liters": 618.72
+    },
+    {
+      "id": "BIN_010",
+      "address": "608 Clementi West Street 1, Singapore",
+      "lat": 1.3048,
+      "lon": 103.7598,
+      "bin_capacity_liters": 857.65,
+      "fill_fraction": 0.575,
+      "demand_liters": 493.31
+    },
+    {
+      "id": "BIN_007",
+      "address": "320 Clementi Avenue 4, Singapore",
+      "lat": 1.3193,
+      "lon": 103.7727,
+      "bin_capacity_liters": 1042.49,
+      "fill_fraction": 0.791,
+      "demand_liters": 825.09
+    },
+    {
+      "id": "BIN_012",
+      "address": "725 Clementi West Street 2, Singapore",
+      "lat": 1.304,
+      "lon": 103.7653,
+      "bin_capacity_liters": 730.25,
+      "fill_fraction": 0.64,
+      "demand_liters": 467.49
+    },
+    {
+      "id": "BIN_004",
+      "address": "442 Clementi Avenue 3, Singapore",
+      "lat": 1.3138,
+      "lon": 103.7669,
+      "bin_capacity_liters": 782.26,
+      "fill_fraction": 0.547,
+      "demand_liters": 427.81
+    },
+    {
+      "id": "BIN_005",
+      "address": "450 Clementi Avenue 3, Singapore",
+      "lat": 1.3125,
+      "lon": 103.7681,
+      "bin_capacity_liters": 995.94,
+      "fill_fraction": 0.496,
+      "demand_liters": 493.98
+    },
+    {
+      "id": "BIN_001",
+      "address": "416 Clementi Avenue 1, Singapore",
+      "lat": 1.3196,
+      "lon": 103.765,
+      "bin_capacity_liters": 827.17,
+      "fill_fraction": 0.612,
+      "demand_liters": 505.85
+    },
+    {
+      "id": "BIN_002",
+      "address": "421 Clementi Avenue 1, Singapore",
+      "lat": 1.3209,
+      "lon": 103.7661,
+      "bin_capacity_liters": 811.34,
+      "fill_fraction": 0.569,
+      "demand_liters": 461.68
+    },
+    {
+      "id": "BIN_011",
+      "address": "720 Clementi West Street 2, Singapore",
+      "lat": 1.3046,
+      "lon": 103.7641,
+      "bin_capacity_liters": 679.12,
+      "fill_fraction": 0.657,
+      "demand_liters": 446.0
+    }
+  ]
+}

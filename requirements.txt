@@ -1,0 +1,7 @@
+requests
+numpy
+matplotlib
+folium
+scikit-learn
+scipy
+Pillow
